@@ -1,0 +1,246 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.primary-btn {
+  border-radius: 5px;
+  background: #e55473;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* -------------------------------banner--------------------------- */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+  height: 100vh;
+  background: rgba(229, 84, 115, 0.1);
+  align-items: center;
+  padding: 30px 40px;
+}
+.banner-container {
+  width: 470px;
+}
+.bannertitle {
+  color: #272727;
+
+  font-size: 45px;
+
+  font-weight: 800;
+}
+.banner-dexcriotion {
+  color: rgba(39, 39, 39, 0.6);
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 20px;
+}
+.banner-img {
+  width: 450px;
+}
+/* -----------------------------flower-sextion-------------------------------- */
+.featured-flower {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 130px;
+}
+.flower-container {
+  display: flex;
+  gap: 10px;
+}
+.featured-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured-description1 {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+.container-with-text {
+  text-align: center;
+}
+
+.flower-item1 {
+  width: 225px;
+  height: 246px;
+  background: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+.flower-item-innerbox1 {
+  width: 145px;
+  height: 187px;
+  background-image: url(images/pngwing\ 6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 58px 1px 5px 42px;
+}
+.flower-item2 {
+  width: 225px;
+  height: 246px;
+  background: rgba(5, 151, 160, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+.flower-item-innerbox2 {
+  width: 145px;
+  height: 187px;
+  background-image: url(images/pngwing\ 5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 58px 1px 5px 42px;
+}
+.flower-item3 {
+  width: 225px;
+  height: 246px;
+  background: rgba(71, 125, 17, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+.flower-item-innerbox3 {
+  width: 141px;
+  height: 208px;
+  background-image: url(images/pngwing\ 7.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 37px 1px 5px 41px;
+}
+
+/* -------------------------deliver---------------------- */
+.deliver {
+  margin: 145px auto 70px;
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  max-width: 950px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.del-container {
+  margin: auto;
+  text-align: center;
+}
+/* ----------------------------sale------------------------ */
+.sale {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+  width: 100%;
+  background: rgba(229, 84, 115, 0.05);
+  /* margin-right: 500x; */
+}
+.sale-contanier {
+  text-align: center;
+}
+/* ------------------------------instgram--------------------------------- */
+.instagram {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  margin-bottom: 150px;
+  margin-top: 30px;
+}
+.instagram-container {
+  display: flex;
+  /* gap: 5px; */
+  width: 950px;
+  margin: 0 auto;
+  /* margin: 5px auto; */
+}
+.instagram-title {
+  text-align: center;
+}
+.instagram-descrition {
+  text-align: center;
+}
+.instagram-item1 {
+  background-image: url("images/Flower\ 01.png");
+  width: 225px;
+  height: 246px;
+  background-size: cover;
+  margin: auto;
+}
+.instagram-item2 {
+  background-image: url("images/Rectangle\ 4.png");
+  width: 225px;
+  height: 246px;
+  background-size: cover;
+  margin: auto;
+}
+.instagram-item3 {
+  background-image: url("images/Rectangle\ 5.png");
+  width: 225px;
+  height: 246px;
+  background-size: cover;
+  margin: auto;
+}
+.instagram-item4 {
+  background-image: url("images/Rectangle\ 6.png");
+  width: 225px;
+  height: 246px;
+  background-size: cover;
+  margin: auto;
+}
+/* ---------------------------------subscribe-------------------------------------- */
+.subscribe {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  flex-direction: column;
+  background: url(images/Rectangle\ 9.png),
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
+  width: 950px;
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  border-radius: 5px;
+  margin-bottom: 130px;
+}
+.subs-input {
+  width: 430px;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: #272727;
+}
+.subscribe-title {
+  margin: 70px auto 0;
+  font-size: 40px;
+}
+.subscribe-dext {
+  font-size: 18px;
+  line-height: 10px;
+}
+/* ---------------------footer--------------------------- */
+footer {
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.footer-container {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+}
+.footer-title-color {
+  color: #e55473;
+}
+/* --------------hdhgj--------- */
